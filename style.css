@@ -101,15 +101,24 @@ section .icon button {
 }
 
 
-section .icon button:hover{
-    background-color: rgb(223, 202, 16);
+section .icon button:hover {
+    background-color: rgb(255, 255, 250);
+    color: black;
+}
+
+section .icon button:hover i.fa-brands {
+    color: black; /* Ganti warna ikon saat tombol dihover */
+}
+section .icon button:hover p{
+    color: black; /* Ganti warna ikon saat tombol dihover */
 }
 
 i.fa-brands {
-    font-size: 24px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+    font-size: 24px;
     margin-right: 10px;
     color: white;
-  }
+}
+
   
 
 section .icon svg {
